@@ -1,6 +1,6 @@
 FROM golang:alpine
 
-COPY maintenance-exporter /maintenance-exporter
+COPY main /maintenance-exporter
 
 EXPOSE 9099
 
